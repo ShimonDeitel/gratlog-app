@@ -1,0 +1,42 @@
+{
+  "identifier": "Gratlog",
+  "nonRenewingSubscriptions": [],
+  "products": [],
+  "settings": {
+    "_storeKitErrors": []
+  },
+  "subscriptionGroups": [
+    {
+      "id": "gratlog_group",
+      "localizations": [],
+      "name": "Gratitude Pro",
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "1.99",
+          "familyShareable": false,
+          "groupNumber": 1,
+          "internalID": "gratlog_pro_monthly",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "Recurring anniversary reminders per client",
+              "displayName": "Gratitude Pro",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.shimondeitel.gratlog.pro.monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "Gratitude Pro Monthly",
+          "subscriptionGroupID": "gratlog_group",
+          "type": "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}
